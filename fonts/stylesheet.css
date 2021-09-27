@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('TTHoves-Bold.eot');
+    src: url('TTHoves-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TTHoves-Bold.woff2') format('woff2'),
+        url('TTHoves-Bold.woff') format('woff'),
+        url('TTHoves-Bold.ttf') format('truetype'),
+        url('TTHoves-Bold.svg#TTHoves-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('TTHoves-Light.eot');
+    src: url('TTHoves-Light.eot?#iefix') format('embedded-opentype'),
+        url('TTHoves-Light.woff2') format('woff2'),
+        url('TTHoves-Light.woff') format('woff'),
+        url('TTHoves-Light.ttf') format('truetype'),
+        url('TTHoves-Light.svg#TTHoves-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('TTHoves-Regular.eot');
+    src: url('TTHoves-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTHoves-Regular.woff2') format('woff2'),
+        url('TTHoves-Regular.woff') format('woff'),
+        url('TTHoves-Regular.ttf') format('truetype'),
+        url('TTHoves-Regular.svg#TTHoves-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('TTHoves-Medium.eot');
+    src: url('TTHoves-Medium.eot?#iefix') format('embedded-opentype'),
+        url('TTHoves-Medium.woff2') format('woff2'),
+        url('TTHoves-Medium.woff') format('woff'),
+        url('TTHoves-Medium.ttf') format('truetype'),
+        url('TTHoves-Medium.svg#TTHoves-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
