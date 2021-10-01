@@ -130,25 +130,61 @@
 
 	<!-- CONTACT US -->
 
-	<section class="container">
+	<section class="container contact-section">
 		<h1 class="contact-heading-first">Связаться с нами</h1>
-		<div class="contact-input">
-			<form action="" method="post">
-				<label for="name"></label>
-				<input type="name" name="name" id="name">
-				<label for="tel"></label>
-				<input type="tel" name="tel" id="tel">
-				<label for="email"></label>
-				<input type="email" name="email" id="email">
-				<label for="interest"></label>
-				<input type="interest" name="interest" id="interest">
-			</form>
+		<div class="contact-box">
+			<div class="contact-form-box">
+				<form class="contact-form" action="#" method="GET">
+					<input class="contact-input" type="text" id="name" name="name" placeholder="Имя">
+					<input class="contact-input" type="tel" id="tel" name="tel" placeholder="Номер телефона*" required>
+					<input class="contact-input" type="email" id="email" name="email" placeholder="E-mail*" required>
+					<input class="contact-input" type="text" id="name" name="name" placeholder="Интересующий товар/услуга">
+					<textarea class="contact-input" name="text" id="text" cols="30" rows="10" placeholder="Сообщение*"></textarea required>
+				</form>
+			</div>
+			<img class="contact-img" src="img/contact-img.jpg" alt="" srcset="img/contact-img.jpg 1x, img/contact-img@2x.jpg 2x" width="749" height="369">
 		</div>
+		<p class="contact-text">
+			Отправляя заявку Вы соглашаетесь
+ 			с политикой
+			конфиденциальности
+		</p>
+		<a class="contact-link" href="#">ОТПРАВИТЬ &rarr;</a>
 	</section>
 
 	<!-- FOOTER -->
 
-
+	<footer class="footer">
+		<div class="container footer-box">
+			<img src="img/footer-logo.png" srcset="img/footer-logo.png 1x, img/footer-logo@2x.png 2x" alt="footer-logo" width="145" height="94">
+			<ul class="footer-list">
+				<li class="footer-item">
+					<h6 class="footer-item-heading">Информация</h6>
+					<a class="footer-item-link" href="#">Главная</a>
+					<a class="footer-item-link" href="#">Галерея</a>
+					<a class="footer-item-link" href="#">Проекты</a>
+					<a class="footer-item-link" href="#">Сертификаты</a>
+					<a class="footer-item-link" href="#">Контакты</a>
+				</li>
+				<li class="footer-item">
+					<h6 class="footer-item-heading">Контакты</h6>
+					<a class="footer-item-link" href="#"><span class="footer-contact-logo footer-contact-logo1"><img src="img/adress-logo.png" alt="adress logo" width="11" height="16"></span>
+						 100000, Республика  Казахстан, г. Караганда, ул. Телевизионная 10</a>
+					<a class="footer-item-link" href="#"><span class="footer-contact-logo"><img src="img/tel-logo.png" alt="tel logo" width="16" height="16"></span> +7 (701) 77 76 811</a>
+					<a class="footer-item-link" href="#"><span class="footer-contact-logo"><img src="img/email-logo.png" alt="email logo" width="16" height="11"></span> Galym.sultanov@mail.ru</a>
+					<li class="footer-item">
+						<h6 class="footer-item-heading">Социальные сети</h6>
+						<a class="footer-social-logo" href="#"><img src="img/facebook.png" alt="facebook" width="9" height="19"></a>
+						<a class="footer-social-logo" href="#"><img src="img/twitter.png" alt="twitter" width="21" height="16"></a>
+						<a class="footer-social-logo" href="#"><img src="img/linked-in.png" alt="linked-in" width="20" height="18"></a>
+						<a class="footer-social-logo" href="#"><img src="img/pininterest.png" alt="pininterest" width="14" height="18"></a>
+					</li>
+				</li>
+			</ul>
+		</div>
+		<hr class="footer-hr">
+		<p class="footer-text">© 2019 Digital Project. Все права защищены.</p>
+	</footer>
 
 </body>
 </html>
